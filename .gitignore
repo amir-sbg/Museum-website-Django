@@ -1,0 +1,5 @@
+.idea
+venv
+.fandoghignore
+db.sqlite3
+fandogh.yml
