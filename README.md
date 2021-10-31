@@ -9,7 +9,7 @@
   <img src="http://ajeetprofile.in/img/icons/skills_icons/bootstrap.jpg" alt="bootstrap" width="80" height="80">
   <img src="https://s4.uupload.ir/files/fandogh_ipp1.jpg" alt="fandogh" width="80" height="80">
   <img src="https://uupload.ir/css/images/logo3.png" alt="uupload" width="80" height="80">
-  <img src="https://s4.uupload.ir/files/ibm_qmhz.png" alt="ibm" width="80" height="80">  
+  <img src="https://s4.uupload.ir/files/ibmw_nstn.jpg" alt="ibm" width="80" height="80">  
 </p>
 
 
