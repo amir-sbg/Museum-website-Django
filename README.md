@@ -27,16 +27,16 @@
 </p>
 <br/><br/><br/> 
 <h4>
-  ⭐ Backend language: Python <br/>
-  ⭐ Backend framework: Django<br/>
+  ⭐ Backend language: Python  
+<img src="https://etuannv.com/wp-content/uploads/2021/08/Python.jpg" alt="ibm" width="80" height="50"> <br/>
+  ⭐ Backend framework: Django 
+<img src="https://www.meme-arsenal.com/memes/6a7e5f808c1548e0c17ddb5c2eb15945.jpg" alt="ibm" width="80" height="50">  <br/>
   ⭐ Frontend CSS framework: BootStrap<br/>
   ⭐ Hosting (PaaS): Fandogh Cloud<br/>
   ⭐ Text to Speech convertor (SaaS): IBM Watson Text to Speech service<br/>
   ⭐ Natural Language Understanding service (SaaS): IBM Watson NLU service<br/>
   ⭐ Image Uploading cloud: Uupload<br/>
   </h4>
-
- 
 
 
 
