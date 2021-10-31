@@ -1,0 +1,179 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.rtl.min.css"
+          integrity="sha384-beJoAY4VI2Q+5IPXjI207/ntOuaz06QYCdpWfWRv4lSFDyUSqsM0W+wiAMr2I185" crossorigin="anonymous">
+
+    <title>
+
+        {% block title %}
+            Stories Page
+        {% endblock %}
+
+    </title>
+</head>
+<body style="background-color: #282a36">
+
+<div class="container">
+
+    <div class="row p-4 border rounded mt-5 justify-content-center " style="background-color: #6272a4 ; ">
+
+
+        <img src=" https://upload.wikimedia.org/wikipedia/commons/a/a9/Cloud-icon.svg"
+             class="col-1 img-fluid rounded   ">
+
+        <p class="col-7 h1 justify-content-center text-center  "
+           style=" font-family: 'papyrus'; color: #f8f8f2">Stories Page - This website is on Fandogh Cloud</p>
+
+        <img src=" https://upload.wikimedia.org/wikipedia/commons/a/a9/Cloud-icon.svg"
+             class="col-1 img-fluid rounded   ">
+
+    </div>
+
+    <div class="row justify-content-center text-center">
+
+        <a href="../images" class="col-1 mt-2 border rounded justify-content-center "
+           style="background-color: #6272a4 ; ">
+
+            <img src=" https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Picture_icon_BLACK.svg/224px-Picture_icon_BLACK.svg.png"
+                 class="col-4 img-fluid rounded   ">
+            <p class="h5 justify-content-center text-center" style=" font-family: 'Arial'; ">images</p>
+
+        </a>
+
+
+    </div>
+</div>
+
+<div class="container p-4">
+    <div class="row gx-5 justify-content-center">
+        {% for StorieP in postsStories %}
+
+            <div class="col-6">
+
+                <div class="col-12 border border-light text-center rounded  p-3 mt-3" style="background-color: #44475a">
+
+
+                    <h5 class=" border border-light rounded  mt-2 p-1"
+                        style="background-color: olivedrab; font-family: 'papyrus';font-weight: bold;">
+                        Story {{ StorieP.storieID }}</h5>
+
+
+                    <div class="border border-dark bg-light rounded p-2 mb-3">
+                        <p class="text text-dark p-1 " style="font-family: 'MV Boli'">  {{ StorieP.storiesText }}</p>
+
+                    </div>
+                    <p class="h5 col justify-content-center text-center "
+                       style=" font-family: 'papyrus'; color: #f8f8f2">Audio</p>
+                    <div class=" row justify-content-center text-center mb-3">
+
+
+                        <a  href="../static/Story{{ StorieP.storieID }}.wav"
+                           class="col-1 border border-info rounded-circle mt-1 p-1 mr-2"
+                           style="background-color: #d8f8f5 ;font-family: 'MV Boli'">
+
+                            <img href="." src="https://icons.getbootstrap.com/assets/icons/music-player.svg"
+                                 class="col-12 img-fluid  ">
+
+                        </a>
+                        <div class="row justify-content-center text-center m-2">
+
+                             <audio controls class="col-6  " style="max-height: 40px">
+                            <source src="../static/Story{{ StorieP.storieID }}.wav" type="audio/wav">
+                            Your browser does not support the audio element.
+                        </audio>
+
+                        </div>
+
+
+                    </div>
+
+
+                    <p class="h5 col justify-content-center text-center "
+                       style=" font-family: 'papyrus'; color: #f8f8f2">Comments</p>
+
+
+                    {% for commentP in postsComments %}
+                        {% if commentP.whichImageID == StorieP.storieID  and commentP.isAcceptable %}
+                            <div class="row m-1 ">
+                                <div class="col-sm-3 rounded border border-success "
+                                     style="background-color: #f8f8f2 ;font-family: 'papyrus';font-weight: bold;">
+                                    <p class="text-center">{{ commentP.writersName }}</p>
+                                </div>
+
+                                <div class="col-sm-7 rounded border border-success  "
+                                     style="background-color: #f8f8f5 ;font-family: 'MV Boli'">
+                                    <p class="text-center"> {{ commentP.text }}</p>
+                                </div>
+
+                                <a href="../static/{{ commentP.audioLink }}.wav"
+                                   class="col-sm-2  rounded border border-success"
+                                   style="background-color: #d8f8f5 ;font-family: 'MV Boli'">
+
+                                    <img href="." src="https://icons.getbootstrap.com/assets/icons/collection-play.svg"
+                                         class="col-12 img-fluid rounded pt-1  ">
+
+                                </a>
+
+                                {#                            <div class="col-sm-2 border borderright">#}
+                                {#                                <p> {{ commentP.isAcceptable }}</p>#}
+                                {#                            </div>#}
+                                {#                            <div class="col-sm-1 border-right">#}
+                                {#                                <p> {{ commentP.whichImageID }}</p>#}
+                                {#                            </div>#}
+
+
+                            </div>
+                            <audio controls class="col-10 " style="max-height: 20px">
+                                <source src="../static/{{ commentP.audioLink }}.wav" type="audio/wav">
+                                Your browser does not support the audio element.
+                            </audio>
+                        {% endif %}
+
+                    {% endfor %}
+                    <div class="p-4 m-1 mt-4" style="	border-top: 5px  dotted  #8c8b8b;">
+                        <p class="h5 col justify-content-center text-center "
+                           style=" font-family: 'papyrus'; color: #f8f8f2">Add New Comment</p>
+
+                        <form class="form-inline" action="/stories/" method="POST">
+                            {% csrf_token %}
+                            <div class="row form-group">
+                                <input type="hidden" value="{{ StorieP.storieID }}" name="storyID">
+                                <input type="text" class="col-sm-3 border border-dark rounded " name="name"
+                                       placeholder="Name" style="font-family: 'MV Boli';background-color: bisque">
+                                <input type="text" class="col-sm-7 border border-dark rounded " name="comment"
+                                       placeholder="Comment" style="font-family: 'MV Boli';background-color: bisque ">
+                                <button type="submit" class="col-sm-2 btn  border border-dark"
+                                        style="background-color: #50fa7b;font-family: 'MV Boli'">Send
+                                </button>
+                            </div>
+
+                        </form>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        {% endfor %}
+    </div>
+</div>
+
+
+{#{% block content %}#}
+{##}
+{#{% endblock %}#}
+<div class="container">
+    <div class="row p-4 border rounded mt-5 justify-content-center mb-5" style="background-color: #6272a4 ; ">
+
+        <img src=" https://upload.wikimedia.org/wikipedia/commons/a/a9/Cloud-icon.svg"
+             class="col-2 img-fluid rounded   ">
+
+    </div>
+</div>
+
+</body>
+</html>
+
