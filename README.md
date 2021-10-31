@@ -1,5 +1,5 @@
 
-<h1 align="center" >🌟Cloud Computing Project-Images, storie and comments website🌟</h1>
+<h1 align="center" >🌟Cloud Computing Project-Images, stories and comments website🌟</h1>
 
 <p align="center"  >  
   <img src="https://images.squarespace-cdn.com/content/v1/5e9e61184a2e5f4b613d5853/1589203361327-OKGR7H58GGGLKW4K1EY1/CC.gif" alt="Cloud" width="500" height="300">
@@ -31,13 +31,13 @@
   🌟 Technologies 🌟
   </h3>
 <h4>
-  ✔️⭐ Backend language: 🐍Python <br/>
-  ✔️⭐ Backend framework: 🔧Django<br/>
-  ✔️⭐ Frontend CSS framework: 🎨BootStrap<br/>
-  ✔️⭐ Hosting (PaaS): 🌰Fandogh Cloud<br/>
-  ✔️⭐ Text to Speech convertor (SaaS): 📢IBM Watson Text to Speech service<br/>
-  ✔️⭐ Natural Language Understanding service (SaaS): 🔎IBM Watson NLU service<br/>
-  ✔️⭐ Image Uploading cloud: 📁Uupload<br/>
+  ✔️ ⭐ Backend language: 🐍Python <br/>
+  ✔️ ⭐ Backend framework: 🔧Django<br/>
+  ✔️ ⭐ Frontend CSS framework: 🎨BootStrap<br/>
+  ✔️ ⭐ Hosting (PaaS): 🌰Fandogh Cloud<br/>
+  ✔️ ⭐ Text to Speech convertor (SaaS): 📢IBM Watson Text to Speech service<br/>
+  ✔️ ⭐ Natural Language Understanding service (SaaS): 🔎IBM Watson NLU service<br/>
+  ✔️ ⭐ Image Uploading cloud: 📁Uupload<br/>
   </h4>
 
 
