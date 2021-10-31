@@ -19,21 +19,21 @@
 ## Built With
 
 <p align="center" > 
-  <img src="https://styles.redditmedia.com/t5_2qh4v/styles/communityIcon_r1rcce3bp1241.png" alt="django" width="80" height="80">
-  <img src="http://ajeetprofile.in/img/icons/skills_icons/bootstrap.jpg" alt="bootstrap" width="80" height="80">
-  <img src="https://s4.uupload.ir/files/fandogh_ipp1.jpg" alt="fandogh" width="80" height="80">
-  <img src="https://uupload.ir/css/images/logo3.png" alt="uupload" width="80" height="80">
+  <img src="https://styles.redditmedia.com/t5_2qh4v/styles/communityIcon_r1rcce3bp1241.png" alt="django" width="80" height="80">✣
+  <img src="http://ajeetprofile.in/img/icons/skills_icons/bootstrap.jpg" alt="bootstrap" width="80" height="80">✣
+  <img src="https://s4.uupload.ir/files/fandogh_ipp1.jpg" alt="fandogh" width="80" height="80">✣
+  <img src="https://uupload.ir/css/images/logo3.png" alt="uupload" width="80" height="80">✣
   <img src="https://s4.uupload.ir/files/ibmw_nstn.jpg" alt="ibm" width="80" height="80">  
 </p>
 <br/><br/><br/> 
 <h4>
-  * Backend language: Python <br/>
-  * Backend framework: Django<br/>
-  * Frontend CSS framework: BootStrap<br/>
-  * Hosting (PaaS): Fandogh Cloud<br/>
-  * Text to Speech convertor (SaaS): IBM Watson Text to Speech service<br/>
-  * Natural Language Understanding service (SaaS): IBM Watson NLU service<br/>
-  * Image Uploading cloud: Uupload<br/>
+  ⭐ Backend language: Python <br/>
+  ⭐ Backend framework: Django<br/>
+  ⭐ Frontend CSS framework: BootStrap<br/>
+  ⭐ Hosting (PaaS): Fandogh Cloud<br/>
+  ⭐ Text to Speech convertor (SaaS): IBM Watson Text to Speech service<br/>
+  ⭐ Natural Language Understanding service (SaaS): IBM Watson NLU service<br/>
+  ⭐ Image Uploading cloud: Uupload<br/>
   </h4>
 
  
