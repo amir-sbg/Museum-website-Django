@@ -26,14 +26,15 @@
   <img src="https://s4.uupload.ir/files/ibmw_nstn.jpg" alt="ibm" width="80" height="80">  
 </p>
 <br/><br/><br/> 
-  * [Backend language: Python]
-  * [Backend framework: Django]
-  * [Frontend CSS framework: BootStrap]
-  * [Hosting (PaaS): Fandogh Cloud]
-  * [Text to Speech convertor (SaaS): IBM Watson Text to Speech service]
-  * [Natural Language Understanding service (SaaS): IBM Watson NLU service]
-  * [Image Uploading cloud: Uupload]
-  
+<h4>
+  * Backend language: Python <br/>
+  * Backend framework: Django<br/>
+  * Frontend CSS framework: BootStrap<br/>
+  * Hosting (PaaS): Fandogh Cloud<br/>
+  * Text to Speech convertor (SaaS): IBM Watson Text to Speech service<br/>
+  * Natural Language Understanding service (SaaS): IBM Watson NLU service<br/>
+  * Image Uploading cloud: Uupload<br/>
+  </h4>
 
  
 
