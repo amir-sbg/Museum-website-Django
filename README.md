@@ -5,11 +5,11 @@
   </p>
 
 <p align="center" > 
-  <img src="https://cdn.pngsumo.com/django-web-development-web-framework-python-software-framework-web-framework-png-550_550.png" alt="django" width="80" height="80">
+  <img src="https://styles.redditmedia.com/t5_2qh4v/styles/communityIcon_r1rcce3bp1241.png" alt="django" width="80" height="80">
   <img src="http://ajeetprofile.in/img/icons/skills_icons/bootstrap.jpg" alt="bootstrap" width="80" height="80">
   <img src="https://s4.uupload.ir/files/fandogh_ipp1.jpg" alt="fandogh" width="80" height="80">
   <img src="https://uupload.ir/css/images/logo3.png" alt="uupload" width="80" height="80">
-  <img src="https://banner2.cleanpng.com/20180324/cvw/kisspng-watson-ibm-cognitive-computing-analytics-bluemix-ibm-5ab6f2c072f0a8.0222173015219391364708.jpg" alt="ibm" width="80" height="80">  
+  <img src="https://www.pngkit.com/png/detail/89-891458_ibm-watson-logo-ibm-watson-logo.png" alt="ibm" width="80" height="80">  
 </p>
 
 
