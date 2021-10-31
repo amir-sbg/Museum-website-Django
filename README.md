@@ -17,7 +17,8 @@
 </p>
 
 ## Built With
-
+<h4> this project is used python and django framework for backend and bootstrap framework for frontend.this is hosted by Fandogh cloud PaaS. for converting comments and stories text to speech it is using IBM Watson text to speech service as SaaS and for ignoring bad comments it is using IBM Watson Natural Language Understanding (NLU) service as SaaS. for uploading images it is using Uupload service as an PaaS for store images.
+  </h4>
 <p align="center" > 
   <img src="https://styles.redditmedia.com/t5_2qh4v/styles/communityIcon_r1rcce3bp1241.png" alt="django" width="80" height="80">✣
   <img src="http://ajeetprofile.in/img/icons/skills_icons/bootstrap.jpg" alt="bootstrap" width="80" height="80">✣
@@ -27,10 +28,8 @@
 </p>
 <br/><br/><br/> 
 <h4>
-  ⭐ Backend language: Python  
-<img src="https://etuannv.com/wp-content/uploads/2021/08/Python.jpg" alt="ibm" width="80" height="50"> <br/>
-  ⭐ Backend framework: Django 
-<img src="https://www.meme-arsenal.com/memes/6a7e5f808c1548e0c17ddb5c2eb15945.jpg" alt="ibm" width="80" height="50">  <br/>
+  ⭐ Backend language: Python <br/>
+  ⭐ Backend framework: Django<br/>
   ⭐ Frontend CSS framework: BootStrap<br/>
   ⭐ Hosting (PaaS): Fandogh Cloud<br/>
   ⭐ Text to Speech convertor (SaaS): IBM Watson Text to Speech service<br/>
