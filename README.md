@@ -15,7 +15,8 @@
   <h3>Stories Page:</h3>
   <img src="https://s4.uupload.ir/files/storie_b8xl.jpg" alt="stories" width="800" height="800">
 </p>
-### Built With
+
+## Built With
 
 <p align="center" > 
   <img src="https://styles.redditmedia.com/t5_2qh4v/styles/communityIcon_r1rcce3bp1241.png" alt="django" width="80" height="80">
@@ -24,7 +25,17 @@
   <img src="https://uupload.ir/css/images/logo3.png" alt="uupload" width="80" height="80">
   <img src="https://s4.uupload.ir/files/ibmw_nstn.jpg" alt="ibm" width="80" height="80">  
 </p>
+<br/><br/><br/> 
+  * Backend language: Python
+  * Backend framework: Django
+  * Frontend CSS framework: BootStrap
+  * Hosting (PaaS): Fandogh Cloud
+  * Text to Speech convertor (SaaS): IBM Watson Text to Speech service
+  * Natural Language Understanding service (SaaS): IBM Watson NLU service
+  * Image Uploading cloud: Uupload
+  
 
+ 
 
 
 
