@@ -10,9 +10,9 @@
 <h4 align="left" > This project is a website for cloud computing course. This website is hosted by cloud platform of   <a href="https://www.fandogh.cloud/"> Fandogh</a> Company and it uses various cloud services for the services available on the website. website's admin can add photos and stories to the pages and website users can post comments about them. Users can also listen and download sound of stories and comments </h4>
 <p align="center" >
   <h3>Images page:</h3>
-  <img src="https://s4.uupload.ir/files/image_59pm.jpg" alt="images" width="1000" height="800">
+  <img src="https://s4.uupload.ir/files/image_59pm.jpg" alt="images" width="800" height="700">
   <h3>Stories Page:</h3>
-  <img src="https://s4.uupload.ir/files/storie_b8xl.jpg" alt="stories" width="1000" height="1000">
+  <img src="https://s4.uupload.ir/files/storie_b8xl.jpg" alt="stories" width="800" height="800">
 </p>
 ## Built With
 
