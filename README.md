@@ -13,7 +13,7 @@
   <h3>Images page:</h3>
   <img src="https://s4.uupload.ir/files/image_59pm.jpg" alt="images" width="800" height="700">
   <h3>Stories Page:</h3>
-  <img src="https://s4.uupload.ir/files/storie_b8xl.jpg" alt="stories" width="800" height="800">
+  <img src="https://s4.uupload.ir/files/storie_b8xl.jpg" alt="stories" width="800" height="650">
 </p>
 
 ## Built With
