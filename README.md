@@ -1,4 +1,4 @@
-<h1 align="center" >Cloud Computing Project - Images and comments website</h1>
+<h1 align="center" >Cloud Computing Project - Images, storie and comments website</h1>
 
 <p align="center"  >  
   <img src="https://images.squarespace-cdn.com/content/v1/5e9e61184a2e5f4b613d5853/1589203361327-OKGR7H58GGGLKW4K1EY1/CC.gif" alt="Cloud" width="500" height="300">
