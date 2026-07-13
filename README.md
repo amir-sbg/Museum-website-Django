@@ -119,6 +119,7 @@ Before deploying or sharing a live instance, address these items:
 - Replace direct `request.POST[...]` access with Django Forms or ModelForms, validate lengths and identifiers, and return user-facing validation messages.
 - Replace the broad exception handler in the NLU integration with explicit exception handling, structured logging, timeouts, and a documented fail-open/fail-closed moderation policy.
 - The current model uses string IDs instead of relational foreign keys, so comments can reference missing content. A production schema should use `ForeignKey` relationships and database constraints.
+- The local browser render returns 404 responses for the audio URLs because templates request `/static/...` while the committed audio files are under `STATIC_ROOT` (`statics/`). Configure Django static-file finders/URLs correctly, or move generated audio to a dedicated media storage path.
 - The `download_file` helper is not routed and currently opens a directory path rather than a concrete audio file. Use Django's file response helpers with validated filenames if downloads are required.
 
 These are documented as engineering boundaries because the repository is a course project; the documentation does not claim that the current configuration is production-safe.
