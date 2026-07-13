@@ -142,7 +142,3 @@ The documentation update was verified with `python manage.py check` and local br
 **Recommended repository name:** `museum-content-platform-django`
 
 **About description:** A Django museum content platform with admin-managed galleries, stories, visitor comments, Watson moderation, and text-to-speech audio.
-
-## License
-
-This project includes a GNU GPL v3 license. See [LICENSE](LICENSE) for the license text.
